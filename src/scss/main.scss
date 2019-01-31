@@ -1,0 +1,229 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+:root {
+	--red: #f13d2d;
+	--black: #000;
+	--blue: blue;
+	--yellow: #ffd436;
+	--white: #fff;
+	--gray: #404040;
+}
+
+.grid-zone {
+		padding: 20px;
+		display: grid;
+		grid-template-columns: repeat(24, 1fr);
+		grid-template-rows: repeat(10, minmax(50px, 1fr));
+		grid-gap: 10px;
+		background-color: var(--gray);
+}
+.grid-box {
+	&-united {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-column: span 3;
+		grid-gap: 10px;
+		&--big {
+				grid-row: span 2;
+			}
+	}
+
+	&-1 {
+		grid-column: span 3;
+		background-color: #fff;
+	}
+	&-2 {
+		grid-column: span 5;
+		background-color: #fff;
+	}
+	&-3 {
+		grid-column: span 4;
+		background-color: var(--yellow);
+	}
+	&-4 {
+		grid-column: span 4;
+		grid-row: span 2;
+		background-color: var(--blue);
+	}
+	&-5 {
+		background-color: var(--yellow);
+
+	}
+	&-6 {
+		background-color: var(--black);
+	}
+	&-7 {
+		grid-column: span 5;
+		background-color: #fff;
+	}
+	&-8 {
+		grid-column: span 2;
+		grid-row: span 2;
+		background-color: #fff;
+	}
+	&-9 {
+		grid-column: span 6;
+		grid-row: span 4;
+		background-color: var(--red);
+	}
+	&-10 {
+		grid-column: span 4;
+		grid-row: span 2;
+		background-color: var(--yellow);
+	}
+	&-11 {
+		grid-column: span 3;
+		background-color: var(--yellow);
+	}
+	&-12 {
+		grid-column: span 3;
+		grid-row: span 2;
+		background-color: #fff;
+	}
+	&-13 {
+		grid-column: span 2;
+		grid-row: span 3;
+		background-color: var(--yellow);
+	}
+	&-14 {
+		grid-column: span 2;
+		grid-row: 4 / 7;
+		background-color: #fff;
+	}
+	&-15 {
+		grid-column: 9 / 11;
+		grid-row: span 2;
+		background-color: #fff;
+	}
+	&-16 {
+		grid-column: span 2;
+		grid-row: span 2;
+		background-color: #fff;
+	}
+	&-17 {
+		grid-column: 13 / span 4;
+		grid-row: 3 / span 2;
+		background-color: var(--red);
+	}
+	&-18 {
+		grid-column: 17 / span 3;
+		grid-row: 3;
+		background-color: var(--black);
+	}
+	&-19 {
+		grid-column: span 3;
+		background-color: #fff;
+	}
+	&-20 {
+		grid-column: span 3;
+		grid-row: span 2;
+		background-color: var(--black);
+	}
+	&-21 {
+		grid-column: span 4;
+		background-color: #fff;
+	}
+	&-22 {
+		grid-column: span 3;
+		background-color: #fff;
+	}
+	&-23 {
+		grid-column: span 3;
+		grid-row: span 2;
+		background-color: var(--black);
+	}
+	&-24,
+	&-31 {
+		grid-column: span 3;
+		background-color: #fff;
+	}
+	&-25 {
+		grid-column: 9 / span 4;
+		background-color: #fff;
+	}
+	&-26,
+	&-27 {
+		grid-column: span 2;
+		grid-row: span 2;
+		background-color: #fff;
+	}
+	&-28 {
+		grid-column: span 6;
+		grid-row: span 4;
+		background-color: var(--blue);
+	}
+	&-29 {
+		grid-column: 23 / span 2;
+		grid-row: 5 / span 3;
+		background-color: #fff;
+	}
+	&-30 {
+		grid-column: span 2;
+		grid-row: span 3;
+		background-color: var(--yellow);
+	}
+	&-32 {
+		grid-column: span 4;
+		grid-row: span 2;
+		background-color: var(--blue);
+	}
+	&-33 {
+		grid-column: 13 / span 4;
+		grid-row: span 2;
+		background-color: var(--yellow);
+	}
+	&-34 {
+		grid-column: span 2;
+		grid-row: span 2;
+		background-color: #fff;
+	}
+	&-35 {
+		grid-column: 3 / span 3;
+		grid-row: 8 / span 2;
+		background-color: #fff; 
+	}
+	&-36 {
+		grid-column: span 3;
+		grid-row-start: 8;
+		background-color: var(--black);
+	}
+	&-37 {
+		grid-column: 1 / span 5;
+		grid-row: 10;
+		background-color: #fff;
+	}
+	&-38 {
+		grid-row: span 2;
+		background-color: var(--yellow);
+	}
+	&-39 {
+		grid-row: span 2;
+		background-color: #fff;
+	}
+	&-40 {
+		grid-column: span 4;
+		grid-row: span 2;
+		background-color: var(--red);
+	}
+	&-41 {
+		grid-column: span 2;
+		background-color: #fff;
+	}
+	&-42 {
+		grid-column: span 2;
+		background-color: var(--black);
+	}
+	&-43 {
+		grid-column: span 5;
+		background-color: #fff;
+	}
+	&-44 {
+		grid-column: span 3;
+		background-color: #fff;
+	}
+}
+
+
